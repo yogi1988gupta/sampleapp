@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.coverageOn {
+  text-align: 'left'
+}
+
+.coverageOff {
+  text-align: 'right'
+}
+
+.reactSelect__control {
+  width:200px;
+  border:none !important;
+  box-shadow: none !important;
+}
+
+.reactSelect-container {
+  background-color: red;
+}
+
+.reactSelect__value-container {
+
+}
+
+.reactSelect__placeholder {
+
+}
+
+.reactSelect__input {
+  display: 'flex';
+  height: 'auto';
+  padding: 0
+}
+
+.reactSelect__indicators {
+
+}
+
+.reactSelect__single-value{
+  color: rgb(37, 125, 187) !important;
+  font-weight: 700;
+}
+.reactSelect__menu {
+  width:200px !important;
+  color: rgb(37, 125, 187) !important;
+  font-weight: 700;
+}
+
+.reactSelect__menu-list {
+  width:200px;
+  color: rgb(37, 125, 187) !important;
+  font-weight: 700;
+}
+
+.reactSelect__option {
+  width:200px;
+  color: rgb(37, 125, 187) !important;
+  font-weight: 700;
+}
+
+.groupHeaders{
+  color: blue;
+}
+
+.headersClass{
+  color: blue;
+}
+
+.expandedHeader {
+  color: blue;
+}
+
+.collapsedHeader {
+  color: blue;
+}
+
+.groupHeaderIcon {
+  margin-left: 30px;
+}
+
+.ag-header-expand-icon-expanded {
+  float:right !important;
+}
+
+.iconGroupHeader {
+  display: flex;
+  justify-content: flex-end;
+  width: 50px;
+}
+
+.rag-green {
+  background-color: lightgreen;
+}
+.rag-amber {
+  background-color: lightsalmon;
+}
+
+.ag-icon-expanded {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgc3R5bGU9IiI+PHBhdGggZD0iTTYgMTJsNC00LTQtNCIgc3Ryb2tlPSIjMDBhNGQ2IiBmaWxsPSJub25lIiBzdHlsZT0iJiMxMDsiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9zdmc+) !important;
+  background-color: transparent !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px 16px !important;
+  opacity: 0.87 !important;
+  width: 16px !important;
+  display: inline-block !important;
+}
+.modalPaper {
+  position: 'absolute';
+  width: 400;
+  background-color: white;
+  border: '2px solid #000';
+  box-shadow: grey;
+  padding: '2px 4px 4px';
+  outline: 'none';
+}
+
+/* .ag-row-odd {
+  background-color: yellow !important;
+}
+.ag-row-even {
+  background-color: grey !important;
+} */
+
+.even-row {
+  background-color: grey !important;
+}
+.odd-row {
+  background-color: white !important;
+}
+
+.clientName {
+  color: blue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
